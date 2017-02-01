@@ -1,0 +1,14 @@
+Things that are covered:
+
+1) Page 2
+2) Scrolling of background images
+3) Page 3, 4, 5
+4) Table view in Page 3, 4, 5
+5) Schedule date collection view showing remaining dates in current month
+6) Time selection collection view partially done
+
+Things that are not covered:
+
+1) Schedule date Selection
+2) Time Selection collection view and selection
+3) Binding reserved booking in Page 1.
