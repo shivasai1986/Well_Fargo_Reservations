@@ -11,5 +11,6 @@
 @interface ScheduleDateCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UILabel *lblDayOfTheWeek;
 @property (weak, nonatomic) IBOutlet UILabel *lblDay;
-
+-(void)selectCell;
+@property (weak, nonatomic) IBOutlet UIView *selectedView;
 @end

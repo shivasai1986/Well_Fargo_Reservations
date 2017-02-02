@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D3FE38BA0FB5ED19935B45 /* libPods-Reservation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB1E9FD766630152C83D507 /* libPods-Reservation.a */; };
+		E90B808F1E43930600EFE638 /* libionicons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E90B808E1E43930600EFE638 /* libionicons.a */; };
+		E90B80951E43DF9900EFE638 /* ReservationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E90B80941E43DF9900EFE638 /* ReservationCell.m */; };
 		E9F15D731E40FD39001E1E7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F15D721E40FD39001E1E7D /* main.m */; };
 		E9F15D761E40FD39001E1E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F15D751E40FD39001E1E7D /* AppDelegate.m */; };
 		E9F15D791E40FD39001E1E7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F15D781E40FD39001E1E7D /* ViewController.m */; };
@@ -23,9 +26,16 @@
 		E9F15DAF1E422483001E1E7D /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F15DAE1E422483001E1E7D /* ScheduleViewController.m */; };
 		E9F15DB21E42253D001E1E7D /* ScheduleDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F15DB11E42253C001E1E7D /* ScheduleDateCell.m */; };
 		E9F15DEA1E425C5F001E1E7D /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = E9F15DE91E425C5F001E1E7D /* Readme */; };
+		E9F15DED1E437ED8001E1E7D /* AvailableTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F15DEC1E437ED8001E1E7D /* AvailableTimeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CE09549EA76A1915F10EDC2 /* Pods-Reservation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reservation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reservation/Pods-Reservation.release.xcconfig"; sourceTree = "<group>"; };
+		AE6E80795C4F61213523FE73 /* Pods-Reservation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reservation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reservation/Pods-Reservation.debug.xcconfig"; sourceTree = "<group>"; };
+		BAB1E9FD766630152C83D507 /* libPods-Reservation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reservation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90B808E1E43930600EFE638 /* libionicons.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionicons.a; path = "Pods/../build/Debug-iphoneos/ionicons/libionicons.a"; sourceTree = "<group>"; };
+		E90B80931E43DF9900EFE638 /* ReservationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationCell.h; sourceTree = "<group>"; };
+		E90B80941E43DF9900EFE638 /* ReservationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationCell.m; sourceTree = "<group>"; };
 		E9F15D6E1E40FD39001E1E7D /* Reservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F15D721E40FD39001E1E7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9F15D741E40FD39001E1E7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +60,8 @@
 		E9F15DB01E42253C001E1E7D /* ScheduleDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleDateCell.h; sourceTree = "<group>"; };
 		E9F15DB11E42253C001E1E7D /* ScheduleDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleDateCell.m; sourceTree = "<group>"; };
 		E9F15DE91E425C5F001E1E7D /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		E9F15DEB1E437ED8001E1E7D /* AvailableTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailableTimeCell.h; sourceTree = "<group>"; };
+		E9F15DEC1E437ED8001E1E7D /* AvailableTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvailableTimeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +69,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90B808F1E43930600EFE638 /* libionicons.a in Frameworks */,
+				00D3FE38BA0FB5ED19935B45 /* libPods-Reservation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9C9E6238B4A5B7BB190DE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E80795C4F61213523FE73 /* Pods-Reservation.debug.xcconfig */,
+				5CE09549EA76A1915F10EDC2 /* Pods-Reservation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5B0BBAC55D9FBBE76618346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E90B808E1E43930600EFE638 /* libionicons.a */,
+				BAB1E9FD766630152C83D507 /* libPods-Reservation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9F15D651E40FD39001E1E7D = {
 			isa = PBXGroup;
 			children = (
 				E9F15D701E40FD39001E1E7D /* Reservation */,
 				E9F15D6F1E40FD39001E1E7D /* Products */,
+				B9C9E6238B4A5B7BB190DE51 /* Pods */,
+				E5B0BBAC55D9FBBE76618346 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +139,10 @@
 				E9F15DB01E42253C001E1E7D /* ScheduleDateCell.h */,
 				E9F15DB11E42253C001E1E7D /* ScheduleDateCell.m */,
 				E9F15DE91E425C5F001E1E7D /* Readme */,
+				E9F15DEB1E437ED8001E1E7D /* AvailableTimeCell.h */,
+				E9F15DEC1E437ED8001E1E7D /* AvailableTimeCell.m */,
+				E90B80931E43DF9900EFE638 /* ReservationCell.h */,
+				E90B80941E43DF9900EFE638 /* ReservationCell.m */,
 			);
 			path = Reservation;
 			sourceTree = "<group>";
@@ -124,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9F15D851E40FD39001E1E7D /* Build configuration list for PBXNativeTarget "Reservation" */;
 			buildPhases = (
+				F96BFD36F45D483F3E2CF1CC /* [CP] Check Pods Manifest.lock */,
 				E9F15D6A1E40FD39001E1E7D /* Sources */,
 				E9F15D6B1E40FD39001E1E7D /* Frameworks */,
 				E9F15D6C1E40FD39001E1E7D /* Resources */,
+				FBD2F8A1AE2237B3E19C9AA7 /* [CP] Embed Pods Frameworks */,
+				30B257D25CD4FA78F9ADE8C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,17 +230,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30B257D25CD4FA78F9ADE8C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reservation/Pods-Reservation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96BFD36F45D483F3E2CF1CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD2F8A1AE2237B3E19C9AA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reservation/Pods-Reservation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9F15D6A1E40FD39001E1E7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90B80951E43DF9900EFE638 /* ReservationCell.m in Sources */,
 				E9F15D8D1E410E6E001E1E7D /* ReservationsController.m in Sources */,
 				E9F15DAF1E422483001E1E7D /* ScheduleViewController.m in Sources */,
 				E9F15D791E40FD39001E1E7D /* ViewController.m in Sources */,
 				E9F15DA41E413029001E1E7D /* PageContentViewController.m in Sources */,
 				E9F15DB21E42253D001E1E7D /* ScheduleDateCell.m in Sources */,
 				E9F15D761E40FD39001E1E7D /* AppDelegate.m in Sources */,
+				E9F15DED1E437ED8001E1E7D /* AvailableTimeCell.m in Sources */,
 				E9F15D731E40FD39001E1E7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,10 +409,15 @@
 		};
 		E9F15D861E40FD39001E1E7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6E80795C4F61213523FE73 /* Pods-Reservation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Reservation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ionicons",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.sampleapp.Reservation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -329,10 +425,15 @@
 		};
 		E9F15D871E40FD39001E1E7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE09549EA76A1915F10EDC2 /* Pods-Reservation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Reservation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ionicons",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.sampleapp.Reservation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,6 +458,7 @@
 				E9F15D871E40FD39001E1E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

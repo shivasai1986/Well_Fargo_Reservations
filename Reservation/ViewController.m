@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PageContentViewController.h"
+#import "ScheduleViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.navigationItem.backBarButtonItem setTitle:@" "];
     
     //loaded images to array to process scroll view
     _pageImages = @[@"image1.png", @"image2.png", @"image3.png"];
